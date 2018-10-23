@@ -26,3 +26,5 @@ address: 5421 Brystone Drive, Houston, TX, 77041
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+test:
