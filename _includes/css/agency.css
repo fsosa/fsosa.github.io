@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #bbbcc1;
 }
 
 .navbar-default .navbar-brand {
@@ -258,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #bbbcc1; // FS changed
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -879,4 +879,14 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/** Custom CSS */
+
+.header-branding-logo {
+  max-width: 120px
+}
+
+.navbar-brand {
+  padding: 10px 15px 20.5px;
 }
