@@ -4,8 +4,8 @@ subtitle:
 layout: default
 modal-id: 2
 date: 20XX-XX-XX
-img: project-placeholder.jpg
-thumbnail: project-placeholder-thumbnail.jpg
+img: land-acquisition.jpg
+thumbnail: land-acquisition-thumbnail.jpg
 alt: image-alt
 category: • Horizontal and vertical control survey
   • Route survey

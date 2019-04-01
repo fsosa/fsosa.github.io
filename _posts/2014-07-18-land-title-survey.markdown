@@ -1,15 +1,15 @@
 ---
 title: Land Title Survey
-subtitle: 
+subtitle:
 layout: default
 modal-id: 1
 date: 20XX-XX-XX
-img: project-placeholder.jpg
-thumbnail: project-placeholder-thumbnail.jpg
+img: church.jpg
+thumbnail: church-thumbnail.jpg
 alt: Land Title Survey
 category: Boundary Survey
 description:
-  REVISE A boundary survey on an approximately three (3) acre church facility
+  A boundary survey on an approximately three (3) acre church facility
   was undertaken by the Solar Surveying, LLC team by utilizing GPS/VRS and
   conventional techniques to quickly and precisely collect data for
   performing this Boundary and Topographic survey and deliver the

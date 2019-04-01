@@ -4,8 +4,8 @@ subtitle:
 layout: default
 modal-id: 3
 date: 20XX-XX-XX
-img: project-placeholder.jpg
-thumbnail: project-placeholder-thumbnail.jpg
+img: toll-road-plaza.jpg
+thumbnail: toll-road-plaza-thumbnail.jpg
 alt: image-alt
 category: • Horizontal and Vertical control survey • Topographic survey • Route Survey • Aerial and LIDAR survey
 description: This Harris county project form part of our surveyors team expertise in
