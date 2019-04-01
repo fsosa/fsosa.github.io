@@ -4,7 +4,12 @@ baseurl:
 # Site settings
 title: Solar Surveying, LLC
 email: fsosa@solarllc.com
-description: "Solar Surveying - TBPLS Certified"
+description:
+  Solar Surveying provides the highest quality professional surveying
+  services and mapping products to all our clients. We achieve excellence using
+  a highly skilled and efficient team of surveyors equipped with the best surveying equipment.
+  We aim to provide surveying services that ensure compliance with our clients' standards and processes,
+  delivering products that meet or exceed the technical and performance requirements.
 
 # Heading
 lead-in: "Texas Professional Land Surveyors"
@@ -27,4 +32,4 @@ address: 5421 Brystone Drive, Houston, TX, 77041
 markdown: kramdown
 permalink: pretty
 
-test:
+future: true
