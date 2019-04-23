@@ -7,15 +7,14 @@ date: 20XX-XX-XX
 img: street.jpg
 thumbnail: street-thumbnail.jpg
 alt: image-alt
-category: • Route survey • Boundary survey
+category: • Route survey • Boundary survey • Parcel acquisition documents
 description:
-  This City of Conroe, Texas project forms part of our surveyors team
-  expertise in performing route surveys. The main objective of this
-  project was the establishment of the existing right-of-way lines of an
-  approximately half-mile of a road and, by utilizing a proposed right-of-
-  way provided by the city, perform boundary surveys for the creation of
-  twelve (12) acquisition parcels. The deliverables included plats and
-  legal descriptions for each of the twelve (12) parcels, which were
+  This City of Conroe project required survey team
+  expertise in performing project route surveys. The main objective of this
+  project was the establishment of existing right-of-way lines along a half-mile section of road and, by utilizing a proposed right-of-
+  way template (schematic) provided by the city, perform boundary surveys for the acquisition of
+  twelve (12) parcels. The deliverables included parcel plats and
+  legal descriptions for each of the twelve parcels, which were
   prepared in full compliance with the city CADD standards, and the project
   was completed on schedule. The project is now in the construction phase.
 
