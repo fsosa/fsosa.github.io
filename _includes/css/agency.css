@@ -330,12 +330,8 @@ header img {
     }
 }
 
-section {
-    padding: 100px 0;
-}
-
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-size: 32px;
 }
@@ -347,12 +343,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -737,7 +727,7 @@ section#contact .text-muted {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -920,4 +910,47 @@ ul.list-centered {
 
 .m-bottom-40 {
   margin-bottom: 40px;
+}
+
+/** Section Header */
+
+.section-header {
+    min-height: 120px;
+    /* height: 120px; */
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.about-header {
+    color: white;
+    background-color: #e32d2c;
+}
+
+.services-header {
+    color: white;
+    background-color: gray;
+}
+
+.certifications-header {
+    color: white;
+    background-color: #1453c5;
+}
+
+.portfolio-header {
+    color: white;
+    background-color: #f37020;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about, #services, #certifications, #portfolio, #contact {
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
 }
