@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #82807a;
+    background-color: #20528b;
 }
 
 .navbar-default .navbar-brand {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #82807a; // FS changed
+        background-color: #20528b; // FS changed
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: linear-gradient( rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4) ),url('{{ site.baseurl }}/img/header-bg.jpg');
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.1) ),url('{{ site.baseurl }}/img/header-sky.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -296,7 +296,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 700;
     line-height: 50px;
     text-shadow: 1px 1px black;
@@ -330,14 +330,10 @@ header img {
     }
 }
 
-section {
-    padding: 100px 0;
-}
-
 section h2.section-heading {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 38px;
+    font-size: 32px;
 }
 
 section h3.section-subheading {
@@ -347,12 +343,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -663,10 +653,11 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #1e4f88;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: soft-light;
 }
 
 section#contact .section-heading {
@@ -732,11 +723,11 @@ section#contact .text-danger {
 }
 
 section#contact .text-muted {
-  color: #b4bcc2;
+  color: white;
 }
 
 footer {
-    padding: 25px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -883,7 +874,13 @@ body {
 /** Custom CSS */
 
 .header-branding-logo {
-  max-width: 150px
+  max-width: 150px;
+  filter: brightness(150%) drop-shadow(1px 1px 5px);
+}
+
+.contact-us-logo {
+  max-width: 280px;
+
 }
 
 .navbar-brand {
@@ -914,4 +911,51 @@ ul.list-centered {
 
 .m-bottom-40 {
   margin-bottom: 40px;
+}
+
+/** Section Header */
+
+.section-header {
+    min-height: 120px;
+    /* height: 120px; */
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.about-header {
+    color: white;
+    background-color: #e32d2c;
+}
+
+.services-header {
+    color: white;
+    background-color: gray;
+}
+
+.certifications-header {
+    color: white;
+    background-color: #20528b;
+}
+
+.portfolio-header {
+    color: white;
+    background-color: #f37020;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about, #services, #certifications, #portfolio, #contact {
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+#carousel-row {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
