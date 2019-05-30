@@ -954,3 +954,8 @@ ul.list-centered {
     -webkit-background-clip: content-box;
     background-clip: content-box;
 }
+
+#carousel-row {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
