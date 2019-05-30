@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #82807a;
+    background-color: #a9a5a5;
 }
 
 .navbar-default .navbar-brand {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #82807a; // FS changed
+        background-color: #a9a5a5; // FS changed
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -874,7 +874,8 @@ body {
 /** Custom CSS */
 
 .header-branding-logo {
-  max-width: 150px
+  max-width: 150px;
+  filter: brightness(150%) drop-shadow(1px 1px 5px);
 }
 
 .contact-us-logo {
