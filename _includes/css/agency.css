@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #a9a5a5;
+    background-color: #20528b;
 }
 
 .navbar-default .navbar-brand {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #a9a5a5; // FS changed
+        background-color: #20528b; // FS changed
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -934,7 +934,7 @@ ul.list-centered {
 
 .certifications-header {
     color: white;
-    background-color: #1453c5;
+    background-color: #20528b;
 }
 
 .portfolio-header {
