@@ -170,6 +170,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+/** Navbar **/
+
 .navbar-default {
     border-color: transparent;
     background-color: #20528b;
@@ -264,6 +266,8 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+
+/** Header **/
 
 header {
     text-align: center;
@@ -874,13 +878,13 @@ body {
 /** Custom CSS */
 
 .header-branding-logo {
-  max-width: 150px;
+  max-width: 200px;
   filter: brightness(150%) drop-shadow(1px 1px 5px);
 }
 
 .contact-us-logo {
   max-width: 280px;
-
+  filter: brightness(150%) drop-shadow(1px 1px 5px);
 }
 
 .navbar-brand {
@@ -917,7 +921,6 @@ ul.list-centered {
 
 .section-header {
     min-height: 120px;
-    /* height: 120px; */
     overflow: hidden;
     margin-bottom: 25px;
 }
@@ -948,14 +951,55 @@ ul.list-centered {
     align-items: center;
 }
 
+/** Adjust padding and margin by the header total size so that anchor links jump to the appropriate position */
 #about, #services, #certifications, #portfolio, #contact {
-    padding-top: 50px;
-    margin-top: -50px;
+    padding-top: 100px;
+    margin-top: -100px;
     -webkit-background-clip: content-box;
     background-clip: content-box;
+}
+
+/** On mobile, the total size does not include margins, so adjust by the total size of the header */
+@media (max-width: 767px) {
+    #about, #services, #certifications, #portfolio, #contact {
+        padding-top: 80px;
+        margin-top: -80px;
+    }
 }
 
 #carousel-row {
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+/** Increased Height Navbar
+
+https://stackoverflow.com/questions/20553572/how-to-increase-bootstrap-3-navbar-height-while-keeping-menu-height-small-when-c
+
+**/
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+/** Adjust the navbar-header as well so that the dropdown menu originates from the correct offset */
+.navbar-header {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+
+.navbar-toggle {
+    margin-top: 22px; /** center the toggle by (min-height / 2) - (navbar-toggle height / 2)
 }
